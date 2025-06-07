@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.App {
+  text-align: center;
+  background: #7b1b38;
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header-section h1 {
+  color: #d3d3d3;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.header-section span {
+  color: #d3d3d3;
+}
+
+.input-container {
+  margin: 15px 0px;
+}
+
+.input-container input {
+  width: 80%;
+  padding: 10px 5px;
+  border-radius: 4px 0px 0px 4px;
+  border: 1px solid #d3d3d3;
+  border-right: none;
+  outline: none;
+}
+
+.input-container input:focus {
+  outline: none;
+}
+
+.input-container button {
+  padding: 11px 5px;
+  border-radius: 0px 4px 4px 0px;
+  outline: none;
+  border: none;
+  background: #6d8196;
+  color: white;
+}
