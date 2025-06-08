@@ -8,8 +8,6 @@
   text-align: center;
   background: #7b1b38;
   font-family: sans-serif;
-  width: 100vw;
-  height: 100vh;
 }
 
 .header-section h1 {
@@ -46,4 +44,46 @@
   border: none;
   background: #6d8196;
   color: white;
+}
+
+.no-wine-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wine-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.no-wine-container span,
+.wine-list span {
+  color: #d3d3d3;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.wine-list p {
+  width: 70%;
+  color: #d3d3d3;
+  margin: 15px 0px;
+  font-size: 18px;
+}
+
+.wine-list li {
+  list-style: none;
+  color: #d3d3d3;
+  font-size: 16px;
+}
+
+.recs div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
