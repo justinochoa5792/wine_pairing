@@ -10,13 +10,66 @@
   font-family: sans-serif;
 }
 
-.header-section h1 {
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+nav span {
+  margin-left: 15px;
+}
+
+.header-section h1,
+nav span,
+a,
+.guide-header,
+.no-recs,
+p {
   color: #d3d3d3;
   font-weight: 500;
   margin-bottom: 10px;
 }
 
-.header-section span {
+.no-recs {
+  margin-top: 20px;
+}
+
+select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #333;
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="gray" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px 16px;
+  cursor: pointer;
+  min-width: 200px;
+  margin-left: 20px;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+a {
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header-section span,
+.our-rec {
   color: #d3d3d3;
 }
 
@@ -81,6 +134,20 @@
 }
 
 .recs div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.wine-recs li {
+  margin-top: 40px;
+
+  list-style-type: none;
+}
+
+.wine-recs li div {
   display: flex;
   flex-direction: column;
   align-items: center;
